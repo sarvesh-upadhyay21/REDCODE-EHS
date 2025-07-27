@@ -1,0 +1,48 @@
+.custom-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.custom-heading {
+  font-size: 38px;
+  font-weight: bold;
+  color: #c80010;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.custom-divider {
+  width: 280px;
+  height: 3px;
+  background-color: #c80010;
+  margin: 0 auto 20px auto;
+}
+
+.custom-subheading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.custom-description {
+  font-size: 18px;
+  max-width: 1000px;
+  margin: 0 auto 30px;
+  color: #000;
+  line-height: 1.7;
+}
+
+.custom-link {
+  font-weight: bold;
+  color: #c80010;
+  font-size: 18px;
+  text-decoration: none;
+}
