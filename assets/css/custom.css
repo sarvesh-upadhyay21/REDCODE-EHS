@@ -46,3 +46,19 @@
   font-size: 18px;
   text-decoration: none;
 }
+
+.custom-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.custom-divider {
+  width: 260px;
+  height: 4px;
+  background-color: var(--accent-color); /* Use your theme color */
+  margin: 10px auto 30px auto; /* top, right/left (center), bottom */
+  border-radius: 2px;
+}
+
