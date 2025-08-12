@@ -1123,86 +1123,81 @@ section,
 /*--------------------------------------------------------------
 # Services Section - Updated
 --------------------------------------------------------------*/
-
 .services .service-item {
-  background-color: var(--surface-color);
+  background-color: var(--surface-color, #fff);
   box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.05);
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
   height: 100%;
-  min-height: 350px;
-  max-width: 100%;
-  overflow: hidden;
+  min-height: 380px;
   position: relative;
+  cursor: pointer;
+  border-top: 4px solid transparent;
 }
 
 .services .service-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.15);
 }
 
+/* Image styling */
 .services .service-item img {
-  width: 300px;
-  height: 250px;
+  width: 100%;
+  max-width: 300px;
+  height: 220px;
   object-fit: contain;
-  margin-bottom: 20px;
-  transition: transform 0.3s ease;
+  margin-bottom: 15px;
+  transition: transform 0.4s ease;
 }
 
 .services .service-item:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(1deg);
 }
 
-
+/* Title */
 .services .service-item h3 {
   font-weight: 700;
+  font-size: 18px;
   margin: 10px 0 15px;
-  font-size: 20px;
-  color: var(--heading-color);
+  color: var(--heading-color, #222);
+  transition: color 0.3s ease;
 }
 
-.services .service-item p {
-  line-height: 24px;
+.services .service-item:hover h3 {
+  color: var(--primary-color, #c80010);
+}
+
+/* Learn More Button */
+.services .service-item .learn-more-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--primary-color, #c80010);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
   font-size: 14px;
-  margin-bottom: 0;
-  color: var(--text-color);
-}
-
-.services .service-item .stretched-link {
-  color: inherit;
+  font-weight: 500;
   text-decoration: none;
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
-.services .service-item .stretched-link:hover {
-  text-decoration: underline;
+.services .service-item:hover .learn-more-btn {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* Color Variants */
-.services .item-cyan {
-  border-top: 4px solid #0dcaf0;
-}
-
-.services .item-orange {
-  border-top: 4px solid #fd7e14;
-}
-
-.services .item-teal {
-  border-top: 4px solid #20c997;
-}
-
-.services .item-red {
-  border-top: 4px solid #df1529;
-}
-
-.services .item-indigo {
-  border-top: 4px solid #6610f2;
-}
-
-.services .item-pink {
-  border-top: 4px solid #f3268c;
-}
+.services .item-cyan { border-top-color: #0dcaf0; }
+.services .item-orange { border-top-color: #fd7e14; }
+.services .item-teal { border-top-color: #20c997; }
+.services .item-red { border-top-color: #df1529; }
+.services .item-indigo { border-top-color: #6610f2; }
+.services .item-pink { border-top-color: #f3268c; }
 
 /*--------------------------------------------------------------
 # Portfolio Section
