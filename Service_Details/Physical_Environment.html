@@ -29,100 +29,8 @@
     <!-- Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/service-details.css" rel="stylesheet">
-    <style>
-        /* Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link href="../assets/css/custom.css" rel="stylesheet">
 
-        main {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #fff;
-            background: url('../assets/img/Service-Details/Physical_Environment.png') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-
-
-        .section-title {
-            text-align: left;
-            padding-bottom: 60px;
-            position: relative;
-            background-color: rgba(2, 0, 6, 0.7);
-            min-height: 100vh;
-            padding: 50px 20px;
-        }
-
-        .section-title h2 {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            padding-bottom: 20px;
-            position: relative;
-            color: #fff;
-            text-align: center
-        }
-
-        .section-title h1 {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            padding-bottom: 20px;
-            position: relative;
-            color: red;
-            text-align: center
-        }
-
-        .section-title h2:after {
-            content: "";
-            position: absolute;
-            display: block;
-            width: 50px;
-            height: 3px;
-            background: var(--accent-color);
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        .section-title p {
-            margin-bottom: 0;
-        }
-
-        .safetyAuditcontainer {
-            max-width: 900px;
-            margin: auto;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 10px;
-            backdrop-filter: blur(5px);
-        }
-
-
-
-        ul {
-            margin-top: 10px;
-            margin-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-            /* color: #000; */
-            font-size: 20px;
-        }
-
-        p {
-            margin-top: 20px;
-            /* color: #000; */
-            font-size: 20px;
-        }
-    </style>
 </head>
 
 <body class="service-details-page">
@@ -148,21 +56,33 @@
 
 
                             <li><a href="../testimonials.html">Clients</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
+                             
                         </ul>
                     </li>
-                    <li><a href="../services.html">Services</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">
+                            <span>Services</span>
+                            <i class="bi bi-chevron-down toggle-dropdown"></i>
+                        </a>
+                        <ul class="services-list">
+              <li><a href="/Service_Details/safety_audit.html">Safety Audit Readiness & Mock Survey Support</a></li>
+              <li><a href="/Service_Details/Physical_Environment.html">Physical Environment / Environment of Care (EOC) & Life Safety Compliance</a></li>
+              <li><a href="/Service_Details/Healthcare.html">Healthcare and Behavioral Facility Management & Administration</a></li>
+              <li><a href="/Service_Details/Emergency_and_Disaster.html">Emergency and Disaster Management</a></li>
+              <li><a href="/Service_Details/Hazardous_Materials.html">Hazardous Materials, Waste and Spill Management</a></li>
+              <li><a href="/Service_Details/Mold_Prevention.html">Mold: Prevention & Evaluation</a></li>
+              <li><a href="/Service_Details/Fire_Safety.html">Fire Safety Compliance for Office Buildings</a></li>
+              <li><a href="/Service_Details/Fire_Safety.html">Safety and Security</a></li>
+              <li><a href="/Service_Details/Health_&_Safety.html">Health & Safety Programs</a></li>
+              <li><a href="/Service_Details/Construction_Health.html">Construction Health & Safety</a></li>
+              <li><a href="/Service_Details/Green_Building.html">Green Building (LEED) Consulting</a></li>
+              <li><a href="/Service_Details/Laboratory_Industrial.html">Laboratory, Industrial & Hazardous Chemical Compliance Consulting</a></li>
+              <!-- <li><a href="services.html">Asbestos, Lead-Based Paint & Hazardous Building Materials</a></li>
+              <li><a href="services.html">Environmental Site Assessment</a></li> -->
+            </ul>
+                    </li>
                     <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-                    <li><a href="../pricing.html">Pricing</a></li>
+                    <!-- <li><a href="../pricing.html">Pricing</a></li> -->
                     <li><a href="../blog.html">Blog</a></li>
                     <li><a href="../contact.html">Contact</a></li>
                 </ul>
@@ -191,127 +111,98 @@
                     </ol>
                 </nav>
             </div>
-        </div><!-- End Page Title -->
-        <div class="container">
-            <!-- Section Title -->
-            <div class="container">
-                <div class="container section-title" data-aos="fade-up">
-                    <h1>Physical Environment / Environment of Care (EOC) &amp; Life Safety Compliance</h1>
-                    <p>
-                        At <strong>REDCODE EHS</strong>, our certified Life Safety Professionals (<em>MSEM, CSP, CHMM,
-                            CHFM</em>) offer specialized consulting and compliance services
-                        to ensure your facility maintains full compliance with <strong>The Joint Commission</strong>,
-                        <strong>CMS</strong>, <strong>OSHA</strong>, <strong>EPA</strong>, <strong>AHJ</strong>,
-                        <strong>Environment of Care (EOC) standards</strong>, <strong>NFPA Life Safety Code®</strong>,
-                        and other applicable regulatory requirements.
+        </div>
+        <!-- End Page Title -->
+
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h2 class="fw-bold mb-3">
+                        Physical Environment / Environment of Care (EOC) &amp; Life Safety Compliance
+                    </h2>
+                    <h4 class="text-danger fw-bold mb-2">REDCODE EHS:</h4>
+                    <p class="fst-italic text-danger">
+                        Expert EOC &amp; Life Safety Support for Healthcare, Education, Industrial, and Commercial
+                        Facilities
                     </p>
                     <p>
-                        We help organizations achieve and sustain audit readiness through comprehensive assessments,
-                        documentation, training, and ongoing support
-                        tailored to the unique needs of healthcare, educational, industrial, and commercial
-                        environments.
+                        At <strong>REDCODE EHS</strong>, our certified Life Safety Professionals
+                        (MSEM, CSP, CHMM, CHFM) provide specialized consulting services
+                        to ensure your facility maintains full compliance with
+                        <strong>Environment of Care (EOC) standards</strong>,
+                        <strong>NFPA Life Safety Code®</strong>, and applicable regulatory requirements.
                     </p>
-
-                    <!-- Image Gallery -->
-                    <div class="row gy-4 my-4">
-                        <div class="col-lg-3 col-md-6">
-                            <img src="assets/img/eoc-lifesafety-1.jpg" alt="EOC & Life Safety Compliance Image 1"
-                                class="img-fluid rounded shadow">
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <img src="assets/img/eoc-lifesafety-2.jpg" alt="EOC & Life Safety Compliance Image 2"
-                                class="img-fluid rounded shadow">
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <img src="assets/img/eoc-lifesafety-3.jpg" alt="EOC & Life Safety Compliance Image 3"
-                                class="img-fluid rounded shadow">
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <img src="assets/img/eoc-lifesafety-4.jpg" alt="EOC & Life Safety Compliance Image 4"
-                                class="img-fluid rounded shadow">
-                        </div>
-                    </div>
-
-                    <h2>Our EOC &amp; Life Safety Services Include:</h2>
-                    <ul>
-                        <li><strong>🔍 Gap Analysis &amp; Mock Surveys</strong>
-                            <ul>
-                                <li>Identify deficiencies in current compliance programs</li>
-                                <li>Conduct realistic mock audits to prepare for TJC, CMS, OSHA, EPA, or local
-                                    inspections</li>
-                                <li>Establish benchmarks and action plans to ensure full survey readiness</li>
-                            </ul>
-                        </li>
-                        <li><strong>📝 Policy &amp; Procedure Development</strong>
-                            <ul>
-                                <li>Develop, update, and align EOC and Life Safety policies, emergency response plans,
-                                    and operational procedures</li>
-                                <li>Customize documentation to meet your facility’s needs and regulatory expectations
-                                </li>
-                            </ul>
-                        </li>
-                        <li><strong>🏥 EOC Plan Development &amp; Evaluation</strong>
-                            <ul>
-                                <li>Create and maintain Environment of Care Plans and Statements of Condition (SOC)</li>
-                                <li>Conduct annual reviews to evaluate plan effectiveness and compliance</li>
-                            </ul>
-                        </li>
-                        <li><strong>🔥 Life Safety Code® Compliance &amp; System Oversight</strong>
-                            <ul>
-                                <li>Assist with NFPA Life Safety Code® compliance, including Interim Life Safety
-                                    Measures (ILSMs)</li>
-                                <li>Support completion and maintenance of the Statement of Conditions™</li>
-                                <li>Monitor and manage Life Safety systems, including inspection schedules</li>
-                            </ul>
-                        </li>
-                        <li><strong>⚠️ Proactive Risk Assessments</strong>
-                            <ul>
-                                <li>Conduct hazard and vulnerability analyses across all EOC disciplines</li>
-                                <li>Identify, prioritize, and mitigate safety risks</li>
-                            </ul>
-                        </li>
-                        <li><strong>🚨 Emergency Management Program Support</strong>
-                            <ul>
-                                <li>Develop and revise organization-wide Emergency Management Plans</li>
-                                <li>Create facility-specific Hazard Vulnerability Analyses (HVAs)</li>
-                                <li>Evaluate and support emergency drills and exercises</li>
-                            </ul>
-                        </li>
-                        <li><strong>🔥 Fire Safety &amp; Staff Training</strong>
-                            <ul>
-                                <li>Coordinate facility-specific fire safety education and compliance training</li>
-                                <li>Develop annual safety competencies for staff and leadership</li>
-                            </ul>
-                        </li>
-                        <li><strong>🛠️ Safety Program &amp; Committee Support</strong>
-                            <ul>
-                                <li>Implement facility-specific safety programs and policies</li>
-                                <li>Conduct safety rounds and hazard surveys</li>
-                                <li>Support or lead your EOC/Safety Committee</li>
-                            </ul>
-                        </li>
-                        <li><strong>📁 Compliance Documentation &amp; Survey Readiness</strong>
-                            <ul>
-                                <li>Maintain Life Safety binders, EOC documentation, and audit-ready records</li>
-                                <li>Provide expert support during audits and surveys</li>
-                            </ul>
-                        </li>
-                        <li><strong>🔧 Medical Equipment &amp; Utility Systems Compliance</strong>
-                            <ul>
-                                <li>Ensure regulatory compliance in medical equipment and utility system maintenance
-                                </li>
-                                <li>Oversee vendor coordination and documentation</li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <p class="mt-4">
-                        Partner with <strong>REDCODE EHS</strong> to safeguard your facility, enhance compliance, and
-                        achieve sustainable safety performance.
+                    <p>
+                        We help organizations achieve and sustain <strong>audit readiness</strong> through
+                        comprehensive assessments, documentation, training, and ongoing support—
+                        all tailored to your facility’s unique needs.
                     </p>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-5 text-center" data-aos="fade-left">
+                    <img src="../assets/img/Service-Details/Physical_Environment.png" alt="EOC & Life Safety Compliance"
+                        class="img-fluid rounded shadow">
                 </div>
             </div>
 
+            <!-- Services Include -->
+            <div class="mt-5 p-4 bg-light rounded shadow-sm" data-aos="fade-up">
+                <h3 class="text-danger fw-bold mb-4">Our EOC &amp; Life Safety Services Include:</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        🔍 <strong>Gap Analysis &amp; Mock Surveys</strong>
+                        <br>Identify deficiencies, conduct realistic mock audits, and prepare for TJC, CMS, OSHA, EPA,
+                        or local inspections.
+                    </li>
+                    <li class="mb-3">
+                        📝 <strong>Policy &amp; Procedure Development</strong>
+                        <br>Develop, update, and align EOC/Life Safety policies, emergency plans, and documentation.
+                    </li>
+                    <li class="mb-3">
+                        🏥 <strong>EOC Plan Development &amp; Evaluation</strong>
+                        <br>Create and maintain Environment of Care Plans &amp; SOCs, with annual reviews for
+                        compliance.
+                    </li>
+                    <li class="mb-3">
+                        🔥 <strong>Life Safety Code® Compliance &amp; Oversight</strong>
+                        <br>Assist with NFPA Life Safety Code®, Interim Life Safety Measures (ILSMs), and inspection
+                        schedules.
+                    </li>
+                    <li class="mb-3">
+                        ⚠️ <strong>Proactive Risk Assessments</strong>
+                        <br>Conduct hazard &amp; vulnerability analyses to identify, prioritize, and mitigate risks.
+                    </li>
+                    <li class="mb-3">
+                        🚨 <strong>Emergency Management Program Support</strong>
+                        <br>Develop and revise Emergency Management Plans, HVAs, and support drills/exercises.
+                    </li>
+                    <li class="mb-3">
+                        🔥 <strong>Fire Safety &amp; Staff Training</strong>
+                        <br>Provide facility-specific fire safety education and annual staff competencies.
+                    </li>
+                    <li class="mb-3">
+                        🛠️ <strong>Safety Program &amp; Committee Support</strong>
+                        <br>Implement programs, conduct safety rounds, and support your EOC/Safety Committee.
+                    </li>
+                    <li class="mb-3">
+                        📁 <strong>Compliance Documentation &amp; Survey Readiness</strong>
+                        <br>Organize Life Safety binders, maintain audit-ready records, and provide expert audit
+                        support.
+                    </li>
+                    <li class="mb-3">
+                        🔧 <strong>Medical Equipment &amp; Utility Systems Compliance</strong>
+                        <br>Ensure compliance in equipment/utility system maintenance, vendor oversight, and
+                        documentation.
+                    </li>
+                </ul>
+
+                <p class="mt-3">
+                    With <strong>REDCODE EHS</strong>, you gain trusted EOC &amp; Life Safety expertise—ensuring your
+                    <strong>facility remains safe, compliant, and always inspection-ready</strong>.
+                </p>
+            </div>
         </div>
 
 
@@ -326,8 +217,8 @@
                         <img src="../assets/img/redcode/Footer-logo.png" alt="">
                     </a>
                     <div class="footer-contact pt-3">
-                        <p>New Delhi</p>
-                        <p>Delhi 212400</p>
+                        <p>169 Edenfied Ave</p>
+                        <p>Watertown MA 02472</p>
                         <p class="mt-3"><strong>Phone:</strong> <span>(857) 258-0441</span></p>
                         <p><strong>Email:</strong> <span>redcodeehs@gmail.com</span></p>
                     </div>
@@ -340,29 +231,25 @@
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./services.html">Services</a></li>
 
-                <!-- Our Services -->
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Industries Served</h4>
-                    <ul>
-                        <li><a href="#">Hospitals</a></li>
-                        <li><a href="#">Ambulatory Centers</a></li>
-                        <li><a href="#">Labs</a></li>
-                        <li><a href="#">Long-Term Care</a></li>
-                        <li><a href="#">Behavioral Health</a></li>
-                        <li><a href="#">Clinics</a></li>
-                        <li><a href="#">Academic Medical Centers</a></li>
-                    </ul>
-                </div>
+          </ul>
+        </div>
+
+        <!-- Our Services -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4></h4>
+          <h4></h4>
+          <ul>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./pages/Terms.html">Terms of service</a></li>
+            <li><a href="./pages/Privacy_policy.html">Privacy policy</a></li>
+          </ul>
+        </div>
 
                 <div class="col-lg-4 col-md-12 footer-newsletter">
                     <h4>Our Newsletter</h4>

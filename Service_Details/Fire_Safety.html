@@ -29,100 +29,8 @@
     <!-- Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet">
     <link href="../assets/css/service-details.css" rel="stylesheet">
-    <style>
-        /* Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link href="../assets/css/custom.css" rel="stylesheet">
 
-        main {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #fff;
-            background: url('../assets/img/Service-Details/FireSafety.png') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-
-
-        .section-title {
-            text-align: left;
-            padding-bottom: 60px;
-            position: relative;
-            background-color: rgba(2, 0, 6, 0.7);
-            min-height: 100vh;
-            padding: 50px 20px;
-        }
-
-        .section-title h2 {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            padding-bottom: 20px;
-            position: relative;
-            color: #fff;
-            text-align: center
-        }
-
-        .section-title h1 {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            padding-bottom: 20px;
-            position: relative;
-            color: red;
-            text-align: center
-        }
-
-        .section-title h2:after {
-            content: "";
-            position: absolute;
-            display: block;
-            width: 50px;
-            height: 3px;
-            background: var(--accent-color);
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: auto;
-        }
-
-        .section-title p {
-            margin-bottom: 0;
-        }
-
-        .safetyAuditcontainer {
-            max-width: 900px;
-            margin: auto;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 10px;
-            backdrop-filter: blur(5px);
-        }
-
-
-
-        ul {
-            margin-top: 10px;
-            margin-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-            /* color: #000; */
-            font-size: 20px;
-        }
-
-        p {
-            margin-top: 20px;
-            /* color: #000; */
-            font-size: 20px;
-        }
-    </style>
 </head>
 
 <body class="service-details-page">
@@ -148,21 +56,33 @@
 
 
                             <li><a href="../testimonials.html">Clients</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
+                             
                         </ul>
                     </li>
-                    <li><a href="../services.html">Services</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">
+                            <span>Services</span>
+                            <i class="bi bi-chevron-down toggle-dropdown"></i>
+                        </a>
+                        <ul class="services-list">
+              <li><a href="/Service_Details/safety_audit.html">Safety Audit Readiness & Mock Survey Support</a></li>
+              <li><a href="/Service_Details/Physical_Environment.html">Physical Environment / Environment of Care (EOC) & Life Safety Compliance</a></li>
+              <li><a href="/Service_Details/Healthcare.html">Healthcare and Behavioral Facility Management & Administration</a></li>
+              <li><a href="/Service_Details/Emergency_and_Disaster.html">Emergency and Disaster Management</a></li>
+              <li><a href="/Service_Details/Hazardous_Materials.html">Hazardous Materials, Waste and Spill Management</a></li>
+              <li><a href="/Service_Details/Mold_Prevention.html">Mold: Prevention & Evaluation</a></li>
+              <li><a href="/Service_Details/Fire_Safety.html">Fire Safety Compliance for Office Buildings</a></li>
+              <li><a href="/Service_Details/Fire_Safety.html">Safety and Security</a></li>
+              <li><a href="/Service_Details/Health_&_Safety.html">Health & Safety Programs</a></li>
+              <li><a href="/Service_Details/Construction_Health.html">Construction Health & Safety</a></li>
+              <li><a href="/Service_Details/Green_Building.html">Green Building (LEED) Consulting</a></li>
+              <li><a href="/Service_Details/Laboratory_Industrial.html">Laboratory, Industrial & Hazardous Chemical Compliance Consulting</a></li>
+              <!-- <li><a href="services.html">Asbestos, Lead-Based Paint & Hazardous Building Materials</a></li>
+              <li><a href="services.html">Environmental Site Assessment</a></li> -->
+            </ul>
+                    </li>
                     <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-                    <li><a href="../pricing.html">Pricing</a></li>
+                    <!-- <li><a href="../pricing.html">Pricing</a></li> -->
                     <li><a href="../blog.html">Blog</a></li>
                     <li><a href="../contact.html">Contact</a></li>
                 </ul>
@@ -191,45 +111,71 @@
                     </ol>
                 </nav>
             </div>
-        </div><!-- End Page Title -->
-        <div class="container">
-  <div class="container section-title" data-aos="fade-up">
-    <h1>Fire Safety Compliance for Office Buildings</h1>
-    <p>
-      <strong>REDCODE EHS</strong> offers expert fire safety support to ensure your office building remains safe, 
-      compliant, and inspection-ready.
-    </p>
+        </div>
+        <!-- End Page Title -->
 
-    <!-- Image Section -->
-    <div class="row gy-4 my-4">
-      <div class="col-lg-3 col-md-6">
-        <img src="assets/img/fire-safety-office-1.jpg" alt="Fire Safety Compliance for Office Buildings Image 1" class="img-fluid rounded shadow">
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <img src="assets/img/fire-safety-office-2.jpg" alt="Fire Safety Compliance for Office Buildings Image 2" class="img-fluid rounded shadow">
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <img src="assets/img/fire-safety-office-3.jpg" alt="Fire Safety Compliance for Office Buildings Image 3" class="img-fluid rounded shadow">
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <img src="assets/img/fire-safety-office-4.jpg" alt="Fire Safety Compliance for Office Buildings Image 4" class="img-fluid rounded shadow">
-      </div>
-    </div>
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-7" data-aos="fade-right">
+                    <h2 class="fw-bold mb-3">Fire Safety Compliance for Office Buildings</h2>
+                    <h4 class="text-danger fw-bold mb-2">REDCODE EHS:</h4>
+                    <p class="fst-italic text-danger">
+                        Expert Fire Safety Support – Keeping Your Office Buildings Safe, Compliant & Inspection Ready
+                    </p>
+                    <p>
+                        REDCODE EHS offers expert fire safety support to ensure your office building remains safe,
+                        compliant,
+                        and inspection ready for NFPA, IFC, OSHA, and other regulatory standards.
+                    </p>
+                </div>
 
-    <h2>Our Services Include:</h2>
-    <ul>
-      <li><strong>Fire Risk Assessments:</strong> Identify hazards, evaluate occupant risk, and recommend mitigation strategies.</li>
-      <li><strong>Code Compliance Consulting:</strong> Ensure compliance with NFPA 101, IFC, and local codes; support AHJ coordination and alternate compliance methods.</li>
-      <li><strong>Fire Protection System Review:</strong> Assess alarm, sprinkler, and suppression systems; verify NFPA 25/72 compliance; coordinate vendor ITM services.</li>
-      <li><strong>Life Safety Documentation:</strong> Develop or update life safety plans, egress diagrams, and compliance records.</li>
-      <li><strong>Drills &amp; Evacuation Planning:</strong> Design fire drills and create clear, building-specific evacuation procedures.</li>
-      <li><strong>Staff Fire Safety Training:</strong> Provide hands-on training in fire prevention, extinguisher use, and emergency response.</li>
-      <li><strong>Inspection Readiness:</strong> Prepare for fire marshal/OSHA inspections and provide on-site regulatory support.</li>
-      <li><strong>Hazardous Material Review (if applicable):</strong> Assess flammable or hazardous materials stored on-site.</li>
-      <li><strong>Interim Life Safety Measures (ILSM):</strong> Develop ILSMs during renovations or if compliance gaps are identified.</li>
-    </ul>
-  </div>
-</div>
+                <!-- Right Image -->
+                <div class="col-lg-5 text-center" data-aos="fade-left">
+                    <img src="../assets/img/Service-Details/fireSafety.png" alt="Fire Safety Services"
+                        class="img-fluid rounded shadow">
+                </div>
+            </div>
+
+            <!-- Services Include -->
+            <div class="mt-5 p-4 bg-light rounded shadow-sm" data-aos="fade-up">
+                <h3 class="text-danger fw-bold mb-4">Our Services Include:</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-3"><strong>Fire Risk Assessments:</strong> Identify hazards, evaluate occupant risk,
+                        and
+                        recommend mitigation strategies.</li>
+                    <li class="mb-3"><strong>Code Compliance Consulting:</strong> Ensure compliance with NFPA 101, IFC,
+                        and
+                        local codes; support AHJ coordination and alternate compliance methods.</li>
+                    <li class="mb-3"><strong>Fire Protection System Review:</strong> Assess alarm, sprinkler, and
+                        suppression
+                        systems; verify NFPA 25/72 compliance; coordinate vendor ITM services.</li>
+                    <li class="mb-3"><strong>Life Safety Documentation:</strong> Develop or update life safety plans,
+                        egress
+                        diagrams, and compliance records.</li>
+                    <li class="mb-3"><strong>Drills & Evacuation Planning:</strong> Design fire drills and create clear,
+                        building-specific evacuation procedures.</li>
+                    <li class="mb-3"><strong>Staff Fire Safety Training:</strong> Provide hands-on training in fire
+                        prevention,
+                        extinguisher use, and emergency response.</li>
+                    <li class="mb-3"><strong>Inspection Readiness:</strong> Prepare for fire marshal/OSHA inspections
+                        and
+                        provide on-site regulatory support.</li>
+                    <li class="mb-3"><strong>Hazardous Material Review (if applicable):</strong> Assess flammable or
+                        hazardous
+                        materials stored on-site.</li>
+                    <li class="mb-3"><strong>Interim Life Safety Measures (ILSM):</strong> Develop ILSMs during
+                        renovations or
+                        if compliance gaps are identified.</li>
+                </ul>
+
+                <p class="mt-3">
+                    Partner with REDCODE EHS for complete fire safety compliance solutions—ensuring your facility is
+                    safe,
+                    compliant, and always inspection-ready.
+                </p>
+            </div>
+        </div>
 
 
     </main>
@@ -243,8 +189,8 @@
                         <img src="../assets/img/redcode/Footer-logo.png" alt="">
                     </a>
                     <div class="footer-contact pt-3">
-                        <p>New Delhi</p>
-                        <p>Delhi 212400</p>
+                        <p>169 Edenfied Ave</p>
+                        <p>Watertown MA 02472</p>
                         <p class="mt-3"><strong>Phone:</strong> <span>(857) 258-0441</span></p>
                         <p><strong>Email:</strong> <span>redcodeehs@gmail.com</span></p>
                     </div>
@@ -257,29 +203,25 @@
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./services.html">Services</a></li>
 
-                <!-- Our Services -->
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Industries Served</h4>
-                    <ul>
-                        <li><a href="#">Hospitals</a></li>
-                        <li><a href="#">Ambulatory Centers</a></li>
-                        <li><a href="#">Labs</a></li>
-                        <li><a href="#">Long-Term Care</a></li>
-                        <li><a href="#">Behavioral Health</a></li>
-                        <li><a href="#">Clinics</a></li>
-                        <li><a href="#">Academic Medical Centers</a></li>
-                    </ul>
-                </div>
+          </ul>
+        </div>
+
+        <!-- Our Services -->
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4></h4>
+          <h4></h4>
+          <ul>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./pages/Terms.html">Terms of service</a></li>
+            <li><a href="./pages/Privacy_policy.html">Privacy policy</a></li>
+          </ul>
+        </div>
 
                 <div class="col-lg-4 col-md-12 footer-newsletter">
                     <h4>Our Newsletter</h4>
