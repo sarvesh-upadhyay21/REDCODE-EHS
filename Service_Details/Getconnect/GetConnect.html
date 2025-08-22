@@ -46,19 +46,21 @@
 
             <nav id="navmenu" class="navmenu align-items-center">
                 <ul>
-                    <li><a href="../../index.html" class="active">Home</a></li>
-                    <li class="dropdown"><a href="../../about.html"><span>About</span> <i
+                    <li><a href="../index.html" class="active">Home</a></li>
+                    <li class="dropdown"><a href="../about.html"><span>About</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="../../about.html">How We Work</a></li>
-                            <li><a href="../../team.html">Who We Are</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="../team.html">Who We Are</a></li>
 
 
 
-                            <li><a href="../../testimonials.html">Clients</a></li>
+                            <li><a href="../testimonials.html">Clients</a></li>
 
                         </ul>
                     </li>
+                    <li><a href="../howWeWork.html">How We Work</a></li>
+
                     <li class="dropdown">
                         <a href="services.html">
                             <span>Services</span>
@@ -90,9 +92,14 @@
                         </ul>
                     </li>
                     <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
-                    <!-- <li><a href="../../pricing.html">Pricing</a></li> -->
-                    <li><a href="../../blog.html">Blog</a></li>
-                    <li><a href="../../contact.html">Contact</a></li>
+                    <!-- <li><a href="../pricing.html">Pricing</a></li> -->
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li class="dropdown"><a><span>Contact</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="contact.html">Get In Touch</a></li>
+                            <li><a href="contact.html">Submit EHS Request</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -107,63 +114,119 @@
         </div>
     </header>
 
-    <main class="main">
-        <!-- Page Title -->
-        <div class="page-title accent-background">
-            <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0">Service Details</h1>
-                <nav class="breadcrumbs">
-                    <ol>
-                        <li><a href="../../services.html">Our Core Services</a></li>
-                        <li class="current">Service Details</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <!-- End Page Title -->
+    <main class="main bg-light py-5">
+        <div class="container">
+            <div class="row g-5 align-items-start">
 
-        <div class="container py-5"> 
-            <div class="mt-5 p-4 bg-light rounded shadow-sm" data-aos="fade-up">
-                <div class="mb-4 d-flex justify-content-between align-items-center">
-                    <h3 class="text-danger fw-bold mb-4">Get Connect</h3>
+                <!-- Left Side Info -->
+                <div class="col-lg-5">
+                    <h2 class="fw-bold text-danger mb-4">💬 Get in Touch With Us</h2>
+                    <p class="lead">
+                        Have a question, suggestion, or need help? Our team is here to guide you every step of the way.
+                        Simply fill out the form ➡️ and we’ll connect with you within <strong>48 hours</strong>.
+                    </p>
+
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-3">🚀 <strong>Fast Response:</strong> Most queries answered in less than 48 hours.
+                        </li>
+                        <li class="mb-3">👩‍💻 <strong>Dedicated Support:</strong> Our experts are ready to assist with
+                            your needs.</li>
+                        <li class="mb-3">🔒 <strong>Safe & Secure:</strong> Your personal details remain confidential.
+                        </li>
+                        <li class="mb-3">🤝 <strong>Friendly Assistance:</strong> No bots, real humans will reply to
+                            you.</li>
+                    </ul>
+
+                    <div class="p-3 mt-4 bg-light rounded shadow-sm">
+                        <h5 class="text-dark">📌 Why Contact Us?</h5>
+                        <p class="mb-0">
+                            Whether it’s a technical issue, a business inquiry, or general feedback,
+                            we’re just a message away. Don’t hesitate—your questions help us improve.
+                        </p>
+                    </div>
+
+                    <p class="mt-4">
+                        ✅ Tip: The more details you share, the quicker we can resolve your concern.
+                        Let’s make this a smooth experience together! 🌟
+                    </p>
                 </div>
 
-                <!-- Form -->
-                <form id="connectForm" class="row g-3">
-                    <div class="col-md-6">
-                        <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="firstName" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="lastName" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="phone" pattern="[0-9]{10}" required>
-                        <div class="form-text">Enter 10-digit phone number</div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="address" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="address" required>
-                    </div>
-                    <div class="col-12">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="4" required></textarea>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-danger w-100">Submit</button>
-                    </div>
-                </form>
 
-                <!-- Success Message -->
-                <div id="successMessage" class="alert alert-success mt-3 d-none">
-                    ✅ Thank you! Your details have been submitted successfully.
+                <!-- Right Side Form -->
+                <div class="col-lg-7">
+                    <div class="card shadow-lg border-0 rounded-4">
+                        <div class="card-body p-4">
+                            <h3 class="text-center fw-bold mb-4">📌 Contact Form</h3>
+                            <form id="contactForm" class="row g-3">
+
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First Name*</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name*</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="companyName" class="form-label">Company Name*</label>
+                                    <input type="text" class="form-control" id="companyName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="jobTitle" class="form-label">Job Title*</label>
+                                    <input type="text" class="form-control" id="jobTitle" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email*</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label">Phone Number*</label>
+                                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{10}" required>
+                                    <small class="text-muted">Enter 10-digit phone number</small>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="city" class="form-label">City*</label>
+                                    <input type="text" class="form-control" id="city" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="state" class="form-label">State*</label>
+                                    <input type="text" class="form-control" id="state" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="zip" class="form-label">Zip Code*</label>
+                                    <input type="text" class="form-control" id="zip" required>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Description of Request*</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+
+                                <!-- Google reCAPTCHA -->
+                                <!-- <div class="col-12">
+                                    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                                </div> -->
+
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-danger w-100 py-2 fw-bold">
+                                        🚀 Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
-
     </main>
+
+    <!-- Google reCAPTCHA script -->
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
 
 
 
