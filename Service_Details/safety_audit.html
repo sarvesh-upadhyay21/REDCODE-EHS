@@ -57,33 +57,46 @@
                             <li><a href="../testimonials.html">Clients</a></li>
                         </ul>
                     </li>
-                    <li><a href="howWeWork.html">How We Work</a></li>
+                    <li><a href="../howWeWork.html">How We Work</a></li>
                     <li class="dropdown">
                         <a href="services.html">
                             <span>Services</span>
                             <i class="bi bi-chevron-down toggle-dropdown"></i>
                         </a>
                         <ul class="services-list">
-              <li><a href="/Service_Details/safety_audit.html">Safety Audit Readiness & Mock Survey Support</a></li>
-              <li><a href="/Service_Details/Physical_Environment.html">Physical Environment / Environment of Care (EOC) & Life Safety Compliance</a></li>
-              <li><a href="/Service_Details/Healthcare.html">Healthcare and Behavioral Facility Management & Administration</a></li>
-              <li><a href="/Service_Details/Emergency_and_Disaster.html">Emergency and Disaster Management</a></li>
-              <li><a href="/Service_Details/Hazardous_Materials.html">Hazardous Materials, Waste and Spill Management</a></li>
-              <li><a href="/Service_Details/Mold_Prevention.html">Mold: Prevention & Evaluation</a></li>
-              <li><a href="/Service_Details/Fire_Safety.html">Fire Safety Compliance for Office Buildings</a></li>
-              <li><a href="/Service_Details/Fire_Safety.html">Safety and Security</a></li>
-              <li><a href="/Service_Details/Health_&_Safety.html">Health & Safety Programs</a></li>
-              <li><a href="/Service_Details/Construction_Health.html">Construction Health & Safety</a></li>
-              <li><a href="/Service_Details/Green_Building.html">Green Building (LEED) Consulting</a></li>
-              <li><a href="/Service_Details/Laboratory_Industrial.html">Laboratory, Industrial & Hazardous Chemical Compliance Consulting</a></li>
-              <!-- <li><a href="services.html">Asbestos, Lead-Based Paint & Hazardous Building Materials</a></li>
+                            <li><a href="/Service_Details/safety_audit.html">Safety Audit Readiness & Mock Survey
+                                    Support</a></li>
+                            <li><a href="/Service_Details/Physical_Environment.html">Physical Environment / Environment
+                                    of Care (EOC) & Life Safety Compliance</a></li>
+                            <li><a href="/Service_Details/Healthcare.html">Healthcare and Behavioral Facility Management
+                                    & Administration</a></li>
+                            <li><a href="/Service_Details/Emergency_and_Disaster.html">Emergency and Disaster
+                                    Management</a></li>
+                            <li><a href="/Service_Details/Hazardous_Materials.html">Hazardous Materials, Waste and Spill
+                                    Management</a></li>
+                            <li><a href="/Service_Details/Mold_Prevention.html">Mold: Prevention & Evaluation</a></li>
+                            <li><a href="/Service_Details/Fire_Safety.html">Fire Safety Compliance for Office
+                                    Buildings</a></li>
+                            <li><a href="/Service_Details/Fire_Safety.html">Safety and Security</a></li>
+                            <li><a href="/Service_Details/Health_&_Safety.html">Health & Safety Programs</a></li>
+                            <li><a href="/Service_Details/Construction_Health.html">Construction Health & Safety</a>
+                            </li>
+                            <li><a href="/Service_Details/Green_Building.html">Green Building (LEED) Consulting</a></li>
+                            <li><a href="/Service_Details/Laboratory_Industrial.html">Laboratory, Industrial & Hazardous
+                                    Chemical Compliance Consulting</a></li>
+                            <!-- <li><a href="services.html">Asbestos, Lead-Based Paint & Hazardous Building Materials</a></li>
               <li><a href="services.html">Environmental Site Assessment</a></li> -->
-            </ul>
+                        </ul>
                     </li>
                     <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
                     <!-- <li><a href="../pricing.html">Pricing</a></li> -->
                     <li><a href="../blog.html">Blog</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
+                    <li class="dropdown"><a><span>Contact</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="contact.html">Get In Touch</a></li>
+                            <li><a href="contact.html">Submit EHS Request</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -154,32 +167,130 @@
 
             <!-- Services Include -->
             <div class="mt-5 p-4 bg-light rounded shadow-sm" data-aos="fade-up">
-                <h3 class="text-danger fw-bold mb-4">Our services include:</h3>
-                <ul class="list-unstyled">
-                    <li class="mb-3"><strong>Gap Analysis:</strong> Identify compliance gaps by thoroughly reviewing
-                        your
-                        existing safety plans, policies, and procedures.</li>
-                    <li class="mb-3"><strong>Documentation Review &amp; Improvement:</strong> Strengthen your
-                        documentation to align with TJC, CMS, EPA, NFPA, ICC, OSHA, FGI, ASHE, ASHRAE, ASME or other
-                        applicable
-                        standards.</li>
-                    <li class="mb-3"><strong>Mock Surveys:</strong> Conduct realistic mock surveys to uncover potential
-                        issues before the official audit.</li>
-                    <li class="mb-3"><strong>Training &amp; Education:</strong> Educate your staff on compliance
-                        requirements and best practices.</li>
-                    <li class="mb-3"><strong>Audit Representation:</strong> Represent your organization during official
-                        audits, providing expert support and advocacy.</li>
-                    <li class="mb-3"><strong>Corrective Action &amp; Follow-Up:</strong> Address deficiencies and
-                        implement sustainable corrective actions.</li>
-                    <li class="mb-3"><strong>Ongoing EHS Management:</strong> Offer end-to-end management solutions by
-                        staffing your EHS, EOC, and Facilities Management teams—providing long-term peace of mind.</li>
-                </ul>
+                <div class="mb-4 d-flex justify-content-between align-items-center">
+                    <a href="services.html" class="text-decoration-none">
+                        <h3 class="text-danger fw-bold mb-4">Our Services Include:</h3>
+                    </a>
+                    <a href="./Getconnect/GetConnect.html" class="text-decoration-none">
+                        <h3 class="text-danger fw-bold mb-4">Get Connect</h3>
+                    </a>
+                </div>
+
+                <!-- Accordion Start -->
+                <div class="accordion" id="servicesAccordion">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
+                                Gap Analysis
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Identify compliance gaps by thoroughly reviewing your existing safety plans, policies,
+                                and procedures.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo">
+                                Documentation Review &amp; Improvement
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Strengthen your documentation to align with TJC, CMS, EPA, NFPA, ICC, OSHA, FGI, ASHE,
+                                ASHRAE, ASME or other applicable standards.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree">
+                                Mock Surveys
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Conduct realistic mock surveys to uncover potential issues before the official audit.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour">
+                                Training &amp; Education
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Educate your staff on compliance requirements and best practices.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive">
+                                Audit Representation
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Represent your organization during official audits, providing expert support and
+                                advocacy.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix">
+                                Corrective Action &amp; Follow-Up
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Address deficiencies and implement sustainable corrective actions.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven">
+                                Ongoing EHS Management
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+                            <div class="accordion-body">
+                                Offer end-to-end management solutions by staffing your EHS, EOC, and Facilities
+                                Management teams—providing long-term peace of mind.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion End -->
 
                 <p class="mt-4">
                     Ensure full audit readiness with a trusted partner who understands the complexities of healthcare
                     safety and regulatory compliance.
                 </p>
             </div>
+
 
         </div>
     </main>
