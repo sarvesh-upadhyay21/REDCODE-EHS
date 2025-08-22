@@ -178,8 +178,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 50px;
-  margin-right: 8px;
+  max-height: 55px;
+  margin-right: 0px;
 }
 
 .header .logo h1 {
@@ -498,8 +498,8 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 55px;
+  margin-right: 0px;
 }
 
 .footer .footer-about .logo span {
@@ -1077,6 +1077,7 @@ section,
   object-position: center;
   z-index: 1;
 }
+
 #about-more {
   position: relative;
   background: #fff;
@@ -1090,7 +1091,8 @@ section,
   left: 0;
   width: 100%;
   height: 100px;
-  background: #008080; /* change to your theme color */
+  background: #008080;
+  /* change to your theme color */
   border-bottom-left-radius: 50% 100px;
   border-bottom-right-radius: 50% 100px;
   z-index: -1;
@@ -1192,12 +1194,29 @@ section,
 }
 
 /* Color Variants */
-.services .item-cyan { border-top-color: #0dcaf0; }
-.services .item-orange { border-top-color: #fd7e14; }
-.services .item-teal { border-top-color: #20c997; }
-.services .item-red { border-top-color: #df1529; }
-.services .item-indigo { border-top-color: #6610f2; }
-.services .item-pink { border-top-color: #f3268c; }
+.services .item-cyan {
+  border-top-color: #0dcaf0;
+}
+
+.services .item-orange {
+  border-top-color: #fd7e14;
+}
+
+.services .item-teal {
+  border-top-color: #20c997;
+}
+
+.services .item-red {
+  border-top-color: #df1529;
+}
+
+.services .item-indigo {
+  border-top-color: #6610f2;
+}
+
+.services .item-pink {
+  border-top-color: #f3268c;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Section
