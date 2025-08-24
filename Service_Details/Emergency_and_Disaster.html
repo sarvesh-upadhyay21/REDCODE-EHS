@@ -62,7 +62,7 @@
                     <li><a href="../howWeWork.html">How We Work</a></li>
 
                     <li class="dropdown">
-                        <a href="services.html">
+                        <a href="../services.html">
                             <span>Services</span>
                             <i class="bi bi-chevron-down toggle-dropdown"></i>
                         </a>
@@ -85,7 +85,7 @@
                             <li><a href="/Service_Details/Mold_Prevention.html">Mold: Prevention & Evaluation</a></li>
                             <li><a href="/Service_Details/Fire_Safety.html">Fire Safety Compliance for Office
                                     Buildings</a></li>
-                            <li><a href="/Service_Details/Fire_Safety.html">Safety and Security</a></li>
+                            <li><a href="/Service_Details/Safety_and_Security.html">Safety and Security</a></li>
                             <li><a href="/Service_Details/Health_&_Safety.html">Health & Safety Programs</a></li>
                             <li><a href="/Service_Details/Construction_Health.html">Construction Health & Safety</a>
                             </li>
@@ -164,7 +164,7 @@
                 </div>
             </div>
 
-            <!-- Services Include -->
+            <!-- Services Include with Accordion -->
             <div class="mt-5 p-4 bg-light rounded shadow-sm" data-aos="fade-up">
                 <div class="mb-4 d-flex justify-content-between align-items-center">
                     <a href="services.html" class="text-decoration-none">
@@ -174,42 +174,191 @@
                         <h3 class="text-danger fw-bold mb-4">Get Connect</h3>
                     </a>
                 </div>
-                <ul class="list-unstyled">
-                    <li class="mb-3"><strong>I. Design and Review of Emergency Management Committees, Policies, Plans,
-                            and Procedures:</strong> Tailored to your organization’s specific needs—ensuring compliance,
-                        coordination, and operational readiness.</li>
-                    <li class="mb-3"><strong>II. Emergency Management Program (EM.09.01.01)</strong></li>
-                    <li class="mb-3"><strong>III. Emergency Management Leadership (EM.10.01.01)</strong></li>
-                    <li class="mb-3"><strong>IV. Hazard Vulnerability Analysis (EM.11.01.01)</strong></li>
-                    <li class="mb-3"><strong>V. Emergency Operations Plan</strong>
-                        <ul class="ms-4">
-                            <li>A. Planning (EM.12.01.01)</li>
-                            <li>B. Six Critical Areas:</li>
-                            <ul class="ms-4">
-                                <li>1. Communications (EM.12.02.01)</li>
-                                <li>2. Staffing (EM.12.02.03)</li>
-                                <li>3. Patient Care and Clinical Support (EM.12.02.05)</li>
-                                <li>4. Safety and Security (EM.12.02.07)</li>
-                                <li>5. Resources and Assets (EM.12.02.09)</li>
-                                <li>6. Utilities (EM.12.02.11)</li>
-                            </ul>
-                        </ul>
-                    </li>
-                    <li class="mb-3"><strong>VI. Continuity of Operations Plan (COOP) (EM.13.01.01)</strong></li>
-                    <li class="mb-3"><strong>VII. Disaster Recovery Plan (EM.14.01.01)</strong></li>
-                    <li class="mb-3"><strong>VIII. Staff Education and Training Program (EM.15.01.01)</strong></li>
-                    <li class="mb-3"><strong>IX. Testing the Emergency Operations Plan (EM.16.01.01)</strong></li>
-                    <li class="mb-3"><strong>X. Evaluation of the Emergency Management Program (EM.17.01.01)</strong>
-                    </li>
-                </ul>
+
+                <!-- Accordion Start -->
+                <div class="accordion" id="emergencyAccordion">
+
+                    <!-- I. Committees -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingOne">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseOne" aria-expanded="true">
+                                I. Design and Review of Emergency Management Committees, Policies, Plans, and Procedures
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Tailored to your organization’s specific needs—ensuring compliance,
+                                coordination, and operational readiness.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- II -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingTwo">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseTwo">
+                                II. Emergency Management Program (EM.09.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Establish a structured program addressing preparedness, mitigation, response, and
+                                recovery.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- III -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingThree">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseThree">
+                                III. Emergency Management Leadership (EM.10.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Define leadership roles and responsibilities in emergency preparedness.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IV -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingFour">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseFour">
+                                IV. Hazard Vulnerability Analysis (EM.11.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Identify, assess, and prioritize potential hazards that could impact operations.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- V -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingFive">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseFive">
+                                V. Emergency Operations Plan
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                <p><strong>A. Planning (EM.12.01.01)</strong></p>
+                                <p><strong>B. Six Critical Areas:</strong></p>
+                                <ul>
+                                    <li>1. Communications (EM.12.02.01)</li>
+                                    <li>2. Staffing (EM.12.02.03)</li>
+                                    <li>3. Patient Care and Clinical Support (EM.12.02.05)</li>
+                                    <li>4. Safety and Security (EM.12.02.07)</li>
+                                    <li>5. Resources and Assets (EM.12.02.09)</li>
+                                    <li>6. Utilities (EM.12.02.11)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VI -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingSix">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseSix">
+                                VI. Continuity of Operations Plan (COOP) (EM.13.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseSix" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Ensure continuity of essential functions during and after emergencies.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VII -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingSeven">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseSeven">
+                                VII. Disaster Recovery Plan (EM.14.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseSeven" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Strategies to restore operations and recover assets post-disaster.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VIII -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingEight">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseEight">
+                                VIII. Staff Education and Training Program (EM.15.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseEight" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Deliver training and drills to improve readiness across all staff levels.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IX -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingNine">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseNine">
+                                IX. Testing the Emergency Operations Plan (EM.16.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseNine" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Simulations and drills to validate the effectiveness of emergency plans.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- X -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="emergencyHeadingTen">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#emergencyCollapseTen">
+                                X. Evaluation of the Emergency Management Program (EM.17.01.01)
+                            </button>
+                        </h2>
+                        <div id="emergencyCollapseTen" class="accordion-collapse collapse"
+                            data-bs-parent="#emergencyAccordion">
+                            <div class="accordion-body">
+                                Ongoing evaluation to strengthen the program and ensure compliance.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Accordion End -->
 
                 <p class="mt-3">
                     Partner with <strong>REDCODE EHS</strong> to strengthen your emergency preparedness, ensure
-                    compliance,
-                    and safeguard your people, assets, and operations.
+                    compliance, and safeguard your people, assets, and operations.
                 </p>
             </div>
         </div>
+
 
     </main>
 
