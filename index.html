@@ -31,6 +31,33 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
+
+  <!-- Extra CSS for Hover Effect -->
+  <style>
+    .hover-card {
+      transition: all 0.3s ease-in-out;
+      border-radius: 12px;
+    }
+
+    .hover-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .services-list li {
+      margin-bottom: 8px;
+    }
+
+    .services-list a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .services-list a:hover {
+      color: #c00;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -437,26 +464,110 @@
 
 
     </section>
-    <!-- About Section - Part 1 -->
-    <section id="about" class="custom-section align-items-center bg-light">
-      <div class="custom-container">
-        <h3 class="custom-heading">Welcome to REDCODE EHS</h3>
-        <p class="custom-description">
-          Headquartered in Boston, MA and fully insured, <strong>REDCODE EHS</strong> proudly serves clients nationwide
-          with a unique and modern EHS management model that offers complete peace of mind—helping your organization
-          stay fully compliant without the cost of full-time hires or juggling multiple contractors. With over
-          <strong>17 years of hands-on expertise</strong>, our certified and experienced Life Safety Professional
-          (<em>MSEM, CSP, ASP, CHMM, CHFM, FPS, RCRA, DOT</em>) serves as your dedicated <strong>EHS Manager</strong>,
-          providing a streamlined, all-in-one solution to ensure compliance with <strong>TJC, CMS, EPA, OSHA, NFPA,
-            RCRA, DOT, AHJ</strong>, and all applicable regulatory standards—delivering peace of mind while reducing
-          costs.
-        </p>
-        <a href="about.html" class="custom-link mt-3 d-inline-block">Learn More +</a>
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+
+        <!-- Heading -->
+        <div class="text-center mb-5">
+          <h3 class="fw-bold text-uppercase border-bottom pb-2 d-inline-block">Welcome to REDCODE EHS</h3>
+          <p class="text-muted mt-2">
+            Delivering peace of mind through compliance, safety, and expertise.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Our Expertise -->
+          <div class="col-lg-6 col-md-12">
+            <div class="card h-100 shadow-sm border-0 hover-card">
+              <div class="card-body">
+                <h4 class="mb-3" style="color:#c00; font-weight:bold;">
+                  <i class="bi bi-gear-fill me-2"></i> Our Expertise
+                </h4>
+                <ul class="list-unstyled services-list">
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/safety_audit.html">Safety Audit Readiness & Mock Survey Support</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Physical_Environment.html">Physical Environment & Life Safety
+                      Compliance</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Healthcare.html">Healthcare & Behavioral Facility Management</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Emergency_and_Disaster.html">Emergency & Disaster Management</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Hazardous_Materials.html">Hazardous Materials & Waste Management</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Mold_Prevention.html">Mold: Prevention & Evaluation</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Fire_Safety.html">Fire Safety Compliance for Offices</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Safety_and_Security.html">Safety & Security</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Health_&_Safety.html">Health & Safety Programs</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Construction_Health.html">Construction Health & Safety</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Green_Building.html">Green Building (LEED) Consulting</a></li>
+                  <li><i class="bi bi-check-circle text-danger me-2"></i><a
+                      href="/Service_Details/Laboratory_Industrial.html">Laboratory & Hazardous Chemical Compliance</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Us -->
+          <div class="col-lg-6 col-md-12">
+            <div class="card h-100 shadow-sm border-0 hover-card">
+              <div class="card-body">
+                <h4 class="mb-3" style="color:#c00; font-weight:bold;">
+                  <i class="bi bi-building me-2"></i> About Us
+                </h4>
+                <h5 class="fw-semibold text-dark mb-3">
+                  Our all-in-one solution delivers complete peace of mind—ensuring compliance while reducing costs.
+                </h5>
+
+                <p class="text-muted">
+                  Headquartered in Boston, MA, and fully insured, <strong>REDCODE EHS</strong> proudly serves clients
+                  nationwide.
+                  We specialize in compliance and safety solutions for healthcare and behavioral health facilities,
+                  emergency management, hazardous materials and waste management for healthcare, laboratories, and
+                  research
+                  institutions. Our expertise also includes EHS consulting and compliance services for construction
+                  safety,
+                  educational institutions, municipalities, and general industry.
+                </p>
+
+                <p class="text-muted">
+                  Our unique and modern EHS management model offers complete peace of mind—helping your organization
+                  stay fully compliant without the cost of full-time hires or juggling multiple contractors.
+                </p>
+
+                <!-- Hidden Content -->
+                <div id="more-content" style="display: none;">
+                  <p class="text-muted">
+                    At REDCODE EHS, our certified and experienced Life Safety Professional
+                    (<em>MSEM, CSP, ASP, CHMM, CHFM, FPS, RCRA, DOT</em>) brings over
+                    <strong>17 years of hands-on expertise</strong>, serving as your dedicated <strong>EHS
+                      Manager</strong>.
+                  </p>
+                  <p class="text-muted">
+                    We provide a streamlined, all-in-one solution to ensure compliance with
+                    <strong>TJC, CMS, EPA, OSHA, NFPA, RCRA, DOT, AHJ</strong>, and all applicable regulatory standards.
+                  </p>
+                </div>
+
+                <!-- Button -->
+                <button id="toggle-btn" class="btn btn-danger mt-2 px-4" onclick="toggleContent()">Learn More +</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </div>
     </section>
-
-
-
 
     <!-- About Section - Part 2 -->
     <section id="about-more" class="about section ">
@@ -841,6 +952,21 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- Script -->
+  <script>
+    function toggleContent() {
+      const content = document.getElementById("more-content");
+      const btn = document.getElementById("toggle-btn");
+
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        btn.innerText = "Show Less -";
+      } else {
+        content.style.display = "none";
+        btn.innerText = "Learn More +";
+      }
+    }
+  </script>
 </body>
 
 </html>
