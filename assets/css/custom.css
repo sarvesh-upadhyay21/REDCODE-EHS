@@ -1,3 +1,7 @@
+.custom-color{
+  color: #0d98c7;
+}
+
 html {
   scroll-behavior: smooth;
 }
