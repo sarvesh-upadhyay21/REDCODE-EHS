@@ -126,117 +126,84 @@
         </nav>
       </div>
     </div><!-- End Page Title -->
-    <main class="main bg-light py-5">
-      <div class="container">
-        <div class="row g-5 align-items-start">
 
-          <!-- Left Side Info -->
-          <div class="col-lg-5">
-            <h2 class="fw-bold text-danger mb-4">💬 Get in Touch With Us</h2>
-            <p class="lead">
-              Have a question, suggestion, or need help? Our team is here to guide you every step of the way.
-              Simply fill out the form ➡️ and we’ll connect with you within <strong>48 hours</strong>.
-            </p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-            <ul class="list-unstyled mt-4">
-              <li class="mb-3">🚀 <strong>Fast Response:</strong> Most queries answered in less than 48 hours.
-              </li>
-              <li class="mb-3">👩‍💻 <strong>Dedicated Support:</strong> Our experts are ready to assist with
-                your needs.</li>
-              <li class="mb-3">🔒 <strong>Safe & Secure:</strong> Your personal details remain confidential.
-              </li>
-              <li class="mb-3">🤝 <strong>Friendly Assistance:</strong> No bots, real humans will reply to
-                you.</li>
-            </ul>
+      <div class="mb-5">
+        <iframe style="width: 100%; height: 400px;"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.4366416977027!2d-71.19434052441295!3d42.375843934105035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377ffe5affd03%3A0x121370cd06e326dc!2s169%20Edenfield%20Ave%2C%20Watertown%2C%20MA%2002472%2C%20USA!5e0!3m2!1sen!2sin!4v1755191370476!5m2!1sen!2sin"
+          frameborder="0" allowfullscreen=""></iframe>
+      </div><!-- End Google Maps -->
 
-            <div class="p-3 mt-4 bg-light rounded shadow-sm">
-              <h5 class="text-dark">📌 Why Contact Us?</h5>
-              <p class="mb-0">
-                Whether it’s a technical issue, a business inquiry, or general feedback,
-                we’re just a message away. Don’t hesitate—your questions help us improve.
-              </p>
+      <div class="container" data-aos="fade">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>Get in touch</h3>
+              <p>Tailored Safety Compliance Solutions — Pay Only for What You Need.</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>169 Edenfied Ave Watertown MA 02472</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>redcodeehs@gmail.com </p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>(857) 258-0441</p>
+                </div>
+              </div><!-- End Info Item -->
+
             </div>
 
-            <p class="mt-4">
-              ✅ Tip: The more details you share, the quicker we can resolve your concern.
-              Let’s make this a smooth experience together! 🌟
-            </p>
           </div>
 
-
-          <!-- Right Side Form -->
-          <div class="col-lg-7">
-            <div class="card shadow-lg border-0 rounded-4 position-relative">
-
-              <!-- X Close Button -->
-              <button type="button" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close"
-                onclick="window.history.back();">
-              </button>
-
-              <div class="card-body p-4">
-                <h3 class="text-center fw-bold mb-4">📌 Contact Form</h3>
-                <form id="contactForm" class="row g-3">
-
-                  <div class="col-md-6">
-                    <label for="firstName" class="form-label">First Name*</label>
-                    <input type="text" class="form-control" id="firstName" required>
-                  </div>
-                  <div class="col-md-6">
-                    <label for="lastName" class="form-label">Last Name*</label>
-                    <input type="text" class="form-control" id="lastName" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <label for="companyName" class="form-label">Company Name*</label>
-                    <input type="text" class="form-control" id="companyName" required>
-                  </div>
-                  <div class="col-md-6">
-                    <label for="jobTitle" class="form-label">Job Title*</label>
-                    <input type="text" class="form-control" id="jobTitle" required>
-                  </div>
-
-                  <div class="col-md-6">
-                    <label for="email" class="form-label">Email*</label>
-                    <input type="email" class="form-control" id="email" required>
-                  </div>
-                  <div class="col-md-6">
-                    <label for="phone" class="form-label">Phone Number*</label>
-                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{10}" required>
-                    <small class="text-muted">Enter 10-digit phone number</small>
-                  </div>
-
-                  <div class="col-md-4">
-                    <label for="city" class="form-label">City*</label>
-                    <input type="text" class="form-control" id="city" required>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="state" class="form-label">State*</label>
-                    <input type="text" class="form-control" id="state" required>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="zip" class="form-label">Zip Code*</label>
-                    <input type="text" class="form-control" id="zip" required>
-                  </div>
-
-                  <div class="col-12">
-                    <label for="message" class="form-label">Description of Request*</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                  </div>
-
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-danger w-100 py-2 fw-bold">
-                      🚀 Submit
-                    </button>
-                  </div>
-                </form>
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
               </div>
-            </div>
-          </div>
-
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
 
         </div>
+
       </div>
-    </main>
+
+    </section><!-- /Contact Section -->
 
   </main>
 
