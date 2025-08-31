@@ -171,6 +171,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  
 }
 
 .header .logo {
@@ -205,8 +206,9 @@ h6 {
   padding-left: 10px;
   display: inline-block;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--accent-color);
+  font-weight: bold;
 }
 
 .header .header-social-links a:hover {
