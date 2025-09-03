@@ -63,14 +63,10 @@
               <li><a href="/Service_Details/Green_Building.html">Green Building (LEED) Consulting</a></li>
               <li><a href="/Service_Details/Laboratory_Industrial.html">Laboratory, Industrial & Hazardous Chemical
                   Compliance Consulting</a></li>
-              <!-- <li><a href="services.html">Asbestos, Lead-Based Paint & Hazardous Building Materials</a></li>
-              <li><a href="services.html">Environmental Site Assessment</a></li> -->
             </ul>
           </li>
           <li><a href="IndustriesWeServed.html">Industries We Served</a></li>
-          <!-- <li><a href="pricing.html">Pricing</a></li> -->
           <li><a href="blog.html">Blog</a></li>
-          <!-- <li><a href="contact.html" class="active">Contact</a></li> -->
           <li class="dropdown active"><a><span>Contact</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -159,48 +155,48 @@
 
                   <div class="col-md-6">
                     <label for="firstName" class="form-label">First Name*</label>
-                    <input type="text" class="form-control" id="firstName" required>
+                    <input type="text" class="form-control" id="firstName" name="firstName" required>
                   </div>
                   <div class="col-md-6">
                     <label for="lastName" class="form-label">Last Name*</label>
-                    <input type="text" class="form-control" id="lastName" required>
+                    <input type="text" class="form-control" id="lastName" name="lastName" required>
                   </div>
 
                   <div class="col-md-6">
                     <label for="companyName" class="form-label">Company Name*</label>
-                    <input type="text" class="form-control" id="companyName" required>
+                    <input type="text" class="form-control" id="companyName" name="companyName" required>
                   </div>
                   <div class="col-md-6">
                     <label for="jobTitle" class="form-label">Job Title*</label>
-                    <input type="text" class="form-control" id="jobTitle" required>
+                    <input type="text" class="form-control" id="jobTitle" name="jobTitle" required>
                   </div>
 
                   <div class="col-md-6">
                     <label for="email" class="form-label">Email*</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <input type="email" class="form-control" id="email" name="email" required>
                   </div>
                   <div class="col-md-6">
                     <label for="phone" class="form-label">Phone Number*</label>
-                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{10}" required>
+                    <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}" required>
                     <small class="text-muted">Enter 10-digit phone number</small>
                   </div>
 
                   <div class="col-md-4">
                     <label for="city" class="form-label">City*</label>
-                    <input type="text" class="form-control" id="city" required>
+                    <input type="text" class="form-control" id="city" name="city" required>
                   </div>
                   <div class="col-md-4">
                     <label for="state" class="form-label">State*</label>
-                    <input type="text" class="form-control" id="state" required>
+                    <input type="text" class="form-control" id="state" name="state" required>
                   </div>
                   <div class="col-md-4">
                     <label for="zip" class="form-label">Zip Code*</label>
-                    <input type="text" class="form-control" id="zip" required>
+                    <input type="text" class="form-control" id="zip" name="zip" required>
                   </div>
 
                   <div class="col-12">
                     <label for="message" class="form-label">Description of Request*</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                   </div>
 
                   <div class="col-12">
@@ -210,6 +206,7 @@
                   </div>
                 </form>
               </div>
+
             </div>
           </div>
 
@@ -314,8 +311,6 @@
     </div>
 
   </footer>
-
-
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
@@ -335,6 +330,26 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("jgMCgX64wp3ZX8_Fe"); // ✅ Dashboard se copy karo
+    })();
+
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      emailjs.sendForm("service_u64jwxw", "template_83d5z7j", this)
+        .then(function () {
+          alert("✅ Message sent successfully!");
+          document.getElementById("contactForm").reset();
+        }, function (error) {
+          alert("❌ Failed to send message: " + JSON.stringify(error));
+        });
+    });
+  </script>
+
+
 
 </body>
 
