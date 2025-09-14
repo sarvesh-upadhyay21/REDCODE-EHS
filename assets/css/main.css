@@ -171,7 +171,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 .header .logo {
@@ -638,6 +638,25 @@ h6 {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+}
+
+.youtube-subscribe-btn {
+  display: inline-block;
+  background-color: #cc0000;
+  /* YouTube Red */
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  margin-left: 10px;
+}
+
+.youtube-subscribe-btn:hover {
+  background-color: #ff0000;
+  /* Brighter Red on hover */
 }
 
 /*--------------------------------------------------------------
