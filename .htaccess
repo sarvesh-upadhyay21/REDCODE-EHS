@@ -1,11 +1,8 @@
 # Enable Rewrite Engine
 RewriteEngine On
 
-# Force HTTPS
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Redirect www to non-www (optional)
+# Combine HTTPS + non-www redirect into one
+RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.redcodeehs\.com [NC]
 RewriteRule ^(.*)$ https://redcodeehs.com/$1 [L,R=301]
 
