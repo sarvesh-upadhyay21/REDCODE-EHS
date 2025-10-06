@@ -1,21 +1,12 @@
-# ---------------------------------------
-# Force HTTPS and remove www
-# ---------------------------------------
+# Enable Rewrite Engine
 RewriteEngine On
 
-# Combine HTTPS + non-www redirect
+# Combine HTTPS + non-www redirect into one
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.redcodeehs\.com [NC]
 RewriteRule ^(.*)$ https://redcodeehs.com/$1 [L,R=301]
 
-# ---------------------------------------
-# Custom 404 Page
-# ---------------------------------------
-ErrorDocument 404 /404.html
-
-# ---------------------------------------
 # Security Headers
-# ---------------------------------------
 <IfModule mod_headers.c>
     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
     Header always set X-Content-Type-Options "nosniff"
