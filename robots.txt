@@ -1,0 +1,22 @@
+User-agent: * 
+Disallow: /wp-admin/ 
+Disallow: /wp-login.php 
+Disallow: /admin/ 
+Disallow: /private/ 
+Allow: / 
+# --- Allow AI crawlers --- 
+User-agent: ChatGPT-User 
+Allow: / 
+User-agent: GPTBot 
+Allow: / 
+User-agent: Google-Extended 
+Allow: / 
+User-agent: PerplexityBot 
+Allow: / 
+User-agent: ClaudeBot 
+Allow: / 
+User-agent: Anthropic-ai 
+Allow: / 
+User-agent: YouBot 
+Allow: / 
+Sitemap: https://redcodeehs.com/sitemap.xml 
