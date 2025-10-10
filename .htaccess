@@ -1,14 +1,18 @@
 # ---------------------------------------
+# REDCODE EHS .htaccess
 # Force HTTPS and remove www
 # ---------------------------------------
-RewriteEngine On
 
-# Ensure RewriteBase is set (avoids some edge cases)
+RewriteEngine On
 RewriteBase /
 
-# Redirect from HTTP or WWW to HTTPS non-www
-RewriteCond %{HTTPS} off [OR]
+# --- Fix: Handle requests for www over HTTP or HTTPS ---
+# Redirect ALL www requests (even with HTTPS error bypass)
 RewriteCond %{HTTP_HOST} ^www\.redcodeehs\.com [NC]
+RewriteRule ^(.*)$ https://redcodeehs.com/$1 [L,R=301]
+
+# --- Force HTTPS on non-www domain ---
+RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://redcodeehs.com/$1 [L,R=301]
 
 # ---------------------------------------
@@ -29,18 +33,22 @@ ErrorDocument 404 /404.html
 </IfModule>
 
 # ---------------------------------------
-# Optional: Compression & Caching (Performance)
+# Enable Compression (Speed Optimization)
 # ---------------------------------------
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
 </IfModule>
 
+# ---------------------------------------
+# Leverage Browser Caching
+# ---------------------------------------
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresByType image/jpg "access plus 1 year"
     ExpiresByType image/jpeg "access plus 1 year"
     ExpiresByType image/gif "access plus 1 year"
     ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
     ExpiresByType text/css "access plus 1 month"
     ExpiresByType application/javascript "access plus 1 month"
     ExpiresByType text/html "access plus 1 day"
