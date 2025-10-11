@@ -1,116 +1,143 @@
-<url> 
-<loc>https://redcodeehs.com/</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>1.00</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/about.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/team.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/how-we-work.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/safety-audit.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/physical-environment.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/healthcare.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/emergency-and-disaster.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/hazardous-materials.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/mold-prevention.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/fire-safety.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/safety-and-security.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/health-&-safety.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/construction-health.html</loc> 
-<lastmod>2025-10-06T17:17:43+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/green-building.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/services/laboratory-industrial.html</loc> 
-<lastmod>2025-10-06T16:54:38+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/industries-we-served.html</loc> 
-<lastmod>2025-10-06T17:17:43+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/blog.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/contact.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/index.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/pages/privacy-policy.html</loc> 
-<lastmod>2025-10-06T17:17:43+00:00</lastmod> 
-<priority>0.80</priority> 
-</url> 
-<url> 
-<loc>https://redcodeehs.com/blog-details.html</loc> 
-<lastmod>2025-10-06T17:02:39+00:00</lastmod> 
-<priority>0.64</priority> 
-</url> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://redcodeehs.com/</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/about.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/team.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/how-we-work.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/safety-audit.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/physical-environment.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/healthcare.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/emergency-and-disaster.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/hazardous-materials.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/mold-prevention.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/fire-safety.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/safety-and-security.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/health-&amp;-safety.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/construction-health.html</loc>
+    <lastmod>2025-10-06T17:17:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/green-building.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/services/laboratory-industrial.html</loc>
+    <lastmod>2025-10-06T16:54:38+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/industries-we-served.html</loc>
+    <lastmod>2025-10-06T17:17:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/blog.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/contact.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/index.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/pages/privacy-policy.html</loc>
+    <lastmod>2025-10-06T17:17:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://redcodeehs.com/blog-details.html</loc>
+    <lastmod>2025-10-06T17:02:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+
 </urlset>
