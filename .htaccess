@@ -1,19 +1,27 @@
 # ---------------------------------------
-# REDCODE EHS .htaccess
-# Force HTTPS and remove www
+# REDCODE EHS .htaccess (Optimized for React Static Site)
 # ---------------------------------------
 
+# Enable Rewrite Engine
 RewriteEngine On
 RewriteBase /
 
-# --- Fix: Handle requests for www over HTTP or HTTPS ---
-# Redirect ALL www requests (even with HTTPS error bypass)
+# --- Redirect all www (HTTP or HTTPS) to non-www HTTPS ---
 RewriteCond %{HTTP_HOST} ^www\.redcodeehs\.com [NC]
 RewriteRule ^(.*)$ https://redcodeehs.com/$1 [L,R=301]
 
 # --- Force HTTPS on non-www domain ---
-RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^redcodeehs\.com [NC]
+RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://redcodeehs.com/$1 [L,R=301]
+
+# ---------------------------------------
+# React SPA Support (Handle Client-side Routes)
+# ---------------------------------------
+# If file or directory doesn’t exist, serve index.html (important for React Router)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
 
 # ---------------------------------------
 # Custom 404 Page
