@@ -1,0 +1,175 @@
+<h2 class="accordion-header" id="headingOne">
+    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        🔍 Gap Analysis &amp; Mock Surveys
+    </button>
+</h2>
+<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#eocServicesAccordion">
+    <div class="accordion-body">
+        <ul>
+            <li>Identify deficiencies in current compliance programs</li>
+            <li>Conduct realistic mock audits to prepare for TJC, CMS, OSHA, EPA, or local
+                inspections</li>
+            <li>Establish benchmarks and action plans to ensure full survey readiness</li>
+
+        </ul>
+    </div>
+</div>
+ <h2 class="accordion-header" id="headingOne">
+    <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo">
+            📝 Policy &amp; Procedure Development
+        </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#eocServicesAccordion">
+        <div class="accordion-body">
+            <ul>
+                <li>Develop, update, and align EOC and Life Safety policies, emergency response
+                    plans, and operational procedures</li>
+                <li>Customize documentation to reflect your facility’s needs and meet regulatory
+                    expectations</li>
+
+
+            </ul>
+        </div>
+    </div>
+    @@ -224,17 +236,18 @@ <h2 class="accordion-header" id="headingTwo">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree">
+                🏥 EOC Plan Development &amp; Evaluation
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#eocServicesAccordion">
+            <div class="accordion-body">
+                <ul>
+                    <li>Create and maintain Environment of Care Plans and Statements of Condition (SOC)
+
+
+                    </li>
+                    <li>Conduct annual reviews to evaluate plan effectiveness and ensure ongoing
+                        compliance</li>
+                </ul>
+            </div>
+        </div>
+        @@ -245,20 +258,19 @@ <h2 class="accordion-header" id="headingThree">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour">
+                    🔥 Life Safety Code® Compliance &amp; System Oversight
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#eocServicesAccordion">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Assist with NFPA Life Safety Code® compliance, including Interim Life Safety
+                            Measures (ILSMs), ICRA, WICRA, and PCRA</li>
+                        <li>Conduct inspections and tests to comply with NFPA 101, NFPA 99, TJC, CMS, OSHA,
+                            EPA, ANSI, ASME, ASHE, and other codes</li>
+                        <li>Support completion and maintenance of the Statement of Conditions™</li>
+                        <li>Monitor and manage Life Safety systems, including weekly, monthly, and quarterly
+                            inspection schedules</li>
+                    </ul>
+                </div>
+            </div>
+            @@ -269,16 +281,18 @@ <h2 class="accordion-header" id="headingFour">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive">
+                        ⚠️ Proactive Risk Assessments
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#eocServicesAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Conduct hazard and vulnerability analyses across all EOC disciplines</li>
+                            <li>Identify, prioritize, and mitigate safety risks before they impact your
+                                operations</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                @@ -289,17 +303,16 @@ <h2 class="accordion-header" id="headingFive">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix">
+                            🚨 Emergency Management Program Support
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#eocServicesAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Develop and revise organization-wide Emergency Management Plans</li>
+                                <li>Create facility-specific Hazard Vulnerability Analyses (HVAs)</li>
+                                <li>Evaluate and support emergency drills, exercises, and after-action reporting
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    @@ -310,18 +323,19 @@ <h2 class="accordion-header" id="headingSix">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven">
+                                🔥 Fire Safety &amp; Staff Training
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse"
+                            data-bs-parent="#eocServicesAccordion">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Coordinate and provide facility-specific fire safety education and compliance
+                                        training</li>
+                                    <li>Develop annual safety competencies for staff and leadership</li>
+                                    <li>Design and conduct Fire Safety trainings (e.g., Portable Fire Extinguisher use,
+                                        Hazardous Materials handling, Hazard Rounding, Utility Management, etc.)</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        @@ -332,18 +346,17 @@ <h2 class="accordion-header" id="headingSeven">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                    🛠️ Safety Program &amp; Committee Support
+
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse"
+                                data-bs-parent="#eocServicesAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Chair EOC / Safety Committee and oversight ongoing EOC / safety compliance
+                                        </li>
+                                        <li>Implement organization-specific safety programs and policies</li>
+                                        <li>Conduct regular safety rounds and hazard surveys</li>
+                                        <li>Support or lead your EOC/Safety Committee, including documentation and
+                                            regulatory alignment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            @@ -354,17 +367,20 @@ <h2 class="accordion-header" id="headingEight">
+                                <h2 class="accordion-header" id="headingNine">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                        🔧 Medical Equipment &amp; Utility Systems Compliance
+
+                                    </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-collapse collapse"
+                                    data-bs-parent="#eocServicesAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Ensure regulatory compliance in medical equipment and utility system
+                                                maintenance
+
+
+
+                                            </li>
+                                            <li>Oversee vendor coordination and documentation of inspections, testing,
+                                                and
+                                                repairs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              
